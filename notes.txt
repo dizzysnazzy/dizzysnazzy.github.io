@@ -1,0 +1,52 @@
+   {
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "jquery": "^3.7.1"
+  }
+}
+
+   
+   
+   
+    <main>
+        <section>
+            <p id="about"> ABOUT This is the main part section 1</p>
+        </section>
+        <section>
+            <p>This is the main part section 2</p>
+        </section>
+        <select name="food" id="foody">
+            <option selected>select food</option>
+            <option>select cake</option>
+            <option>select pizza</option>
+            <option>select orange</option>
+        </select>
+        <br>
+        <code>
+            i = 2
+            if (i != 10) {
+                i*2
+            }
+            else {
+                break
+            }
+        </code>   
+        <summary>
+            This is the summary of all the documentation
+        </summary>     
+    </main>
+
+    <aside>
+        <p>This is aside part</p>
+    </aside>
+
+    <article>
+        <pre>
+            <p>This is my article paragraph enclosed with pre</p>
+        </pre>
+        Lorem ipsum dolor, <mark>this is a mark tag</mark> sit amet consectetur adipisicing elit. Quidem nam possimus voluptatum? Odit eligendi officiis, eum inventore aliquid quaerat repellat. Impedit, aliquid aliquam! Saepe maxime, corporis voluptatem nostrum dolorum ipsa.
+    </article>
+
+    <cite>this is cite</cite>
+    <details>this is more details about details tag</details>
