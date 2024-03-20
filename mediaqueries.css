@@ -56,7 +56,6 @@
     /* height: 83vh; */
     /* margin-bottom: 2rem; */
 
-    background-color: aqua;
     flex-shrink: 0;
     height: 96vh;
   }
@@ -112,4 +111,34 @@
 #contact {
   padding-top: 0;
   scroll-margin-top: 100px;
+}
+
+@media screen and (max-width: 499px) {
+  #hamburger-nav {
+    height: 10vh;
+  }
+  #profile {
+    padding-top: 42px;
+    margin-bottom: 0;
+    height: 80vh;
+  }
+  #about,
+  #experience,
+  #projects,
+  #contact {
+    scroll-margin-top: 55px;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  article {
+    font-size: 0.65rem;
+  }
+  .experience-sub-title {
+    font-size: 1rem;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 0.65rem;
+  }
 }
