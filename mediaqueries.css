@@ -119,14 +119,15 @@
   }
   #profile {
     padding-top: 42px;
-    margin-bottom: 0;
-    height: 80vh;
+    margin-bottom: 4em;
+    /* height: 55vh; */
+    height:fit-content;
   }
   #about,
   #experience,
   #projects,
   #contact {
-    scroll-margin-top: 55px;
+    scroll-margin-top: 6em;
   }
   .logo {
     font-size: 1rem;
