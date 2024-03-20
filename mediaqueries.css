@@ -1,10 +1,10 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    /* height: 83vh; */
+    /* margin-bottom: 6rem; */
   }
   .about-containers {
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
   }
   #contact,
   #projects {
@@ -54,7 +54,7 @@
   }
   #profile {
     height: 83vh;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
   }
   article {
     font-size: 1rem;
