@@ -1,6 +1,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    /* height: 83vh; */
+    height: fit-content;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -50,14 +51,16 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    /* height: 40vh; */
+    height: fit-content;
   }
   #profile {
     /* height: 83vh; */
     /* margin-bottom: 2rem; */
 
     flex-shrink: 0;
-    height: 96vh;
+    /* height: 96vh; */
+    height: fit-content;
   }
   article {
     font-size: 1rem;
@@ -115,7 +118,7 @@
 
 @media screen and (max-width: 499px) {
   #hamburger-nav {
-    height: 10vh;
+    height: 8vh;
   }
   #profile {
     padding-top: 42px;
