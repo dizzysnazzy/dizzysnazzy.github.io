@@ -117,8 +117,10 @@
 }
 
 @media screen and (max-width: 499px) {
-  #hamburger-nav {
-    height: 8vh;
+  #hamburger-nav,
+  #desktop-nav {
+    height: fit-content;
+    padding: 0.5rem;
   }
   #profile {
     padding-top: 42px;
