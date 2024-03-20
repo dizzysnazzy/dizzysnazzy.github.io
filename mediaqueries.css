@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    /* height: 83vh; */
-    /* margin-bottom: 6rem; */
+    height: 83vh;
+    margin-bottom: 6rem;
   }
   .about-containers {
     flex-wrap: wrap; 
@@ -53,8 +53,12 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
-    margin-bottom: 2rem;
+    /* height: 83vh; */
+    /* margin-bottom: 2rem; */
+
+    background-color: aqua;
+    flex-shrink: 0;
+    height: 96vh;
   }
   article {
     font-size: 1rem;
@@ -100,4 +104,12 @@
   .text-container {
     text-align: justify;
   }
+}
+
+#about,
+#experience,
+#projects,
+#contact {
+  padding-top: 0;
+  scroll-margin-top: 100px;
 }
