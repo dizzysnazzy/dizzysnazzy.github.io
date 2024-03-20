@@ -41,7 +41,9 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  /* height: 17vh; */
+  height: fit-content;
+  padding: 10px;
 
   position: fixed;
   left: 0;
